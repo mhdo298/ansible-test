@@ -1,7 +1,0 @@
-- hosts: localhost
-  connection: local
-  become: true
-
-  tasks:
-    - name: echo hi
-      shell: "echo hi"
